@@ -1,0 +1,2 @@
+1. The bug was that it was always returning a string even if the user types a number for num1 and num2. So it just concatenates num1 and num2 together as a string. 
+2. I would convert the num1 and num2 to numbers in calculateSum, so that when you add the two values together, result will be a number now and not a string. 
